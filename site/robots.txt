@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://excel4pro.ru/sitemap.xml

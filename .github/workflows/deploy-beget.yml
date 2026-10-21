@@ -1,0 +1,29 @@
+name: Deploy site to Beget
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/deploy-beget.yml"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      FTP_SERVER: ${{ secrets.BEGET_FTP_SERVER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip if Beget secrets are not set yet
+        if: env.FTP_SERVER == ''
+        run: echo "Секреты BEGET_FTP_* не заданы, деплой пропущен. См. README."
+
+      - name: Upload site/ to Beget via FTP
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.BEGET_FTP_SERVER }}
+          username: ${{ secrets.BEGET_FTP_USERNAME }}
+          password: ${{ secrets.BEGET_FTP_PASSWORD }}
+          local-dir: ./site/
+          server-dir: ${{ secrets.BEGET_FTP_DIR || 'excel4pro.ru/public_html/' }}

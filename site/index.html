@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нейросети для работы с Excel - онлайн-курс Excel + ИИ | excel4pro</title>
+<meta name="description" content="Онлайн-курс Excel + ИИ: формулы с нейросетью, умные таблицы, ВПР, сводные таблицы и Power Query. 6 рабочих проектов, от учёта финансов до отчёта, который обновляется одной кнопкой. От 2 900 ₽.">
+<link rel="canonical" href="https://excel4pro.ru/">
+<meta name="theme-color" content="#262a40">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://excel4pro.ru/">
+<meta property="og:title" content="Нейросети для работы с Excel - курс excel4pro">
+<meta property="og:description" content="Собираете 6 рабочих Excel-систем вместе с ИИ: формулы, умные таблицы, Power Query и анализ отзывов. Без макросов и зубрёжки функций.">
+<meta property="og:image" content="https://excel4pro.ru/assets/img/lesson-poster.jpg">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Нейросети для работы с Excel",
+  "description": "Практический онлайн-курс: как собирать рабочие Excel-системы вместе с ИИ. Формулы, умные таблицы, ВПР, сводные таблицы, Power Query и классификация текста нейросетью.",
+  "inLanguage": "ru",
+  "url": "https://excel4pro.ru/",
+  "educationalLevel": "Начальный",
+  "provider": { "@type": "Organization", "name": "excel4pro", "url": "https://excel4pro.ru/" },
+  "instructor": { "@type": "Person", "name": "Филипп Акунья-Герреро" },
+  "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT5H" },
+  "offers": [
+    { "@type": "Offer", "name": "Базовый", "price": "2900", "priceCurrency": "RUB", "category": "Paid" },
+    { "@type": "Offer", "name": "Продвинутый", "price": "17900", "priceCurrency": "RUB", "category": "Paid" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e3efe9"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#36b26a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check-y" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#fff3d6"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#d48a12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="header" id="top">
+  <div class="wrap header__in">
+    <a class="logo" href="#top" aria-label="excel4pro - на главную"><span class="logo__mark">X4</span><span>excel<b>4</b>pro</span></a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#about">О курсе</a>
+      <a href="#projects">Проекты</a>
+      <a href="#program">Программа</a>
+      <a href="#author">Автор</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--primary" href="#pricing">Записаться</a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <h1>Нейросети для работы с <em>Excel</em></h1>
+      <p class="hero__lead">Научитесь использовать ИИ, чтобы писать и объяснять формулы, находить в них ошибки, доставать данные из документов и скриншотов и сводить файлы разного формата в одну таблицу. В Excel освоите умные таблицы, ВПР, сводные таблицы и Power Query для отчётов, которые обновляются одной кнопкой.</p>
+      <div class="hero__meta">
+        <div class="meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="13" width="4" height="8" rx="1.5" fill="#36b26a"/><rect x="10" y="8" width="4" height="13" rx="1.5" fill="#fff" opacity=".5"/><rect x="17" y="3" width="4" height="18" rx="1.5" fill="#fff" opacity=".5"/></svg>Начальный<br>уровень</div>
+        <div class="meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>4-5 часов<br>в неделю</div>
+        <div class="meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg>6 рабочих<br>проектов</div>
+      </div>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#pricing">Записаться за 2 900 ₽</a>
+        <a class="btn btn--ghost" href="#program">Смотреть программу</a>
+      </div>
+      <p class="hero__note">Без макросов, VBA и зубрёжки сотен функций</p>
+    </div>
+
+    <div class="sheet" aria-hidden="true">
+      <div class="sheet__bar"><span class="sheet__dots"><i></i><i></i><i></i></span>Финансовый навигатор.xlsx</div>
+      <div class="sheet__fx"><b>fx</b><span class="fx-text" id="fx"></span><span class="caret"></span></div>
+      <table>
+        <tr><th></th><th>A</th><th>B</th><th>C</th><th class="hide-sm">D</th></tr>
+        <tr class="head"><td class="rowh">1</td><td>Категория</td><td class="n">План</td><td class="n">Факт</td><td class="n hide-sm">Отклонение</td></tr>
+        <tr><td class="rowh">2</td><td>Продукты</td><td class="n">25 000</td><td class="n" data-v="27 340">-</td><td class="n bad hide-sm" data-v="-2 340">-</td></tr>
+        <tr><td class="rowh">3</td><td>Транспорт</td><td class="n">6 000</td><td class="n" data-v="5 120">-</td><td class="n ok hide-sm" data-v="880">-</td></tr>
+        <tr><td class="rowh">4</td><td>Подписки</td><td class="n">2 500</td><td class="n" data-v="3 970">-</td><td class="n bad hide-sm" data-v="-1 470">-</td></tr>
+        <tr><td class="rowh">5</td><td>Кафе</td><td class="n">8 000</td><td class="n" data-v="7 450">-</td><td class="n ok hide-sm" data-v="550">-</td></tr>
+      </table>
+      <div class="chat">
+        <div class="bubble bubble--me reveal-later" id="b1"><span class="bubble__who">Вы</span>Посчитай факт по каждой категории за октябрь из листа "Операции"</div>
+        <div class="bubble bubble--ai reveal-later" id="b2"><span class="bubble__who">ИИ</span>Вставьте в C2 формулу <b>СУММЕСЛИМН</b> и протяните вниз. Проверка: итог по столбцу C должен совпасть с суммой расходов за месяц.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAINS -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Знакомо?</span>
+      <h2>Excel съедает часы, которые можно потратить на решения</h2>
+      <p>Сколько времени в месяц уходит у вас на таблицы, которые вы уже собирали в прошлом месяце?</p>
+    </div>
+    <div class="grid grid--3">
+      <div class="card rv"><div class="pain__icon">📋</div><h3>Ручной перенос данных</h3><p>Копируете цифры между файлами, правите даты и названия, удаляете лишние строки. Каждую неделю по одному и тому же сценарию.</p></div>
+      <div class="card rv"><div class="pain__icon">🔍</div><h3>Поиск нужной формулы</h3><p>Задача понятна, а как написать формулу, непонятно. Гуглите, вставляете чужой пример, и он ломается на ваших данных.</p></div>
+      <div class="card rv"><div class="pain__icon">🤖</div><h3>ИИ отвечает, цифры не сходятся</h3><p>Спросили ChatGPT, получили красивый ответ. Потом выясняется, что пара строк потерялась, а итог посчитан неверно.</p></div>
+      <div class="card rv"><div class="pain__icon">🗂️</div><h3>Хаос в исходниках</h3><p>Выгрузки из разных систем, разные шапки столбцов, дубли. Пока всё сведёшь в одну таблицу, проходит полдня.</p></div>
+      <div class="card rv"><div class="pain__icon">📝</div><h3>Бриф размытый, смета кривая</h3><p>Заказчик пишет абзац текста, а вам нужно превратить его в состав работ, сроки и стоимость. Любая правка означает пересчёт с нуля.</p></div>
+      <div class="card rv"><div class="pain__icon">💬</div><h3>Сотни отзывов без анализа</h3><p>Отзывы и обращения копятся, их читают выборочно. Какие проблемы повторяются и что чинить первым, никто толком не знает.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="section section--soft">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Подход курса</span>
+      <h2>ИИ проектирует, Excel считает, вы решаете</h2>
+      <p>Курс учит собирать системы, где у каждого участника своя работа. Каждый новый инструмент появляется ровно тогда, когда он нужен в следующей практической задаче.</p>
+    </div>
+    <div class="roles">
+      <div class="role role--ai rv">
+        <span class="role__tag">Нейросеть</span>
+        <h3>Работает с неопределённостью</h3>
+        <p>Помогает понять задачу и спроектировать решение, когда вы ещё не знаете нужных функций.</p>
+        <ul><li>Предлагает структуру таблицы</li><li>Пишет и объясняет формулы</li><li>Достаёт данные из текста и скриншотов</li><li>Классифицирует отзывы по темам</li></ul>
+      </div>
+      <div class="role role--xl rv">
+        <span class="role__tag">Excel</span>
+        <h3>Отвечает за точность</h3>
+        <p>Делает расчёты детерминированными: одна и та же формула на тех же данных всегда даёт один результат.</p>
+        <ul><li>Точные вычисления и проверки</li><li>Связи между таблицами</li><li>Обновление на новых данных</li><li>Сводные таблицы и визуализация</li></ul>
+      </div>
+      <div class="role role--you rv">
+        <span class="role__tag">Вы</span>
+        <h3>Задаёте правила и проверяете</h3>
+        <p>Итог остаётся под вашим контролем: вы решаете, что считать, и проверяете, что посчитано верно.</p>
+        <ul><li>Формулируете правила расчёта</li><li>Проверяете ответы ИИ</li><li>Тестируете систему на новых данных</li><li>Принимаете решение по цифрам</li></ul>
+      </div>
+    </div>
+    <div class="callout rv">
+      <div class="callout__icon">💡</div>
+      <p><b>Загрузить файл в чат и скопировать ответ обратно</b> - это ускорение. Автоматизация начинается тогда, когда новый файл кладётся в папку и отчёт собирается по кнопке "Обновить". На курсе разбираем, где ИИ помогает, где ускоряет, что будет полуавтоматом, а что переведём в повторяемую автоматизацию.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIENCE -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Для кого курс</span>
+      <h2>Для всех, кто работает с таблицами и устал от рутины</h2>
+    </div>
+    <div class="grid grid--2">
+      <div class="card aud rv"><div class="aud__num">01</div><div><h3>Офисные специалисты и менеджеры</h3><p>Автоматизируете ручной перенос данных и сборку одних и тех же таблиц каждую неделю.</p></div></div>
+      <div class="card aud rv"><div class="aud__num">02</div><div><h3>Руководители проектов и команд</h3><p>Увидите сроки, статусы и загрузку людей в одном месте и поймёте, можно ли брать ещё один проект.</p></div></div>
+      <div class="card aud rv"><div class="aud__num">03</div><div><h3>Фрилансеры и специалисты по сметам</h3><p>Будете быстрее превращать бриф клиента в расчёт и показывать несколько вариантов стоимости с обоснованием.</p></div></div>
+      <div class="card aud rv"><div class="aud__num">04</div><div><h3>Маркетологи и продуктовики</h3><p>Научитесь сводить данные из разных кабинетов и разбирать массив текстовых отзывов клиентов по темам.</p></div></div>
+      <div class="card aud rv"><div class="aud__num">05</div><div><h3>Предприниматели и фаундеры</h3><p>Получите наглядный контроль над деньгами, план-фактом и продажами без найма аналитика.</p></div></div>
+      <div class="card aud rv"><div class="aud__num">06</div><div><h3>Пользователи ChatGPT и аналогов</h3><p>Уже пробовали ИИ для таблиц и получали разовый результат. Научитесь получать повторяемый.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEARN -->
+<section class="section section--soft">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Результат</span>
+      <h2>Чему вы научитесь</h2>
+    </div>
+    <ul class="learn rv">
+      <li><svg class="check"><use href="#i-check"/></svg>Ставить ИИ задачу так, чтобы получать структуру таблицы, формулы и правила</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Создавать формулы с помощью ИИ и проверять корректность их расчётов</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Строить таблицы, которые не ломаются при добавлении новых данных, и защищать их от ошибок ввода</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Извлекать данные из документов, брифов и скриншотов и превращать их в расчётную модель с автопересчётом</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Сравнивать варианты по критериям, весам и сценариям и объяснять, почему выбран именно этот</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Связывать несколько таблиц в одну систему через справочники, ключи и ВПР, а итоги собирать в сводных таблицах</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Автоматизировать регулярные отчёты в Power Query, чтобы новый файл обрабатывался по кнопке "Обновить"</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Поручать ИИ разбор и классификацию текста, например отзывов, и проверять качество его работы</li>
+      <li><svg class="check"><use href="#i-check"/></svg>Понимать, где ИИ можно доверять, а где результат обязательно нужно перепроверить</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section section--soft" id="projects" style="padding-top:0">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">6 проектов</span>
+      <h2>Соберёте 6 рабочих Excel-систем и заберёте их себе</h2>
+      <p>Каждый модуль заканчивается проектом. Навык считается освоенным, когда система работает на новых данных: добавили строки, поменяли ставку, загрузили новый файл, и всё пересчиталось правильно.</p>
+    </div>
+    <div class="projects">
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 1</span><span class="level">Старт</span></div>
+        <h3>Финансовый навигатор</h3>
+        <div class="project__row"><b>Боль</b><p>Видны отдельные траты, но непонятна общая картина и дойдёте ли вы до цели.</p></div>
+        <div class="project__row"><b>Результат</b><p>Учёт операций, категории, обязательные платежи, план-факт и финансовая цель.</p></div>
+        <div class="project__check">✓ Новые операции и категории не ломают расчёты</div>
+      </article>
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 2</span><span class="level level--2">Уровень 2</span></div>
+        <h3>Из брифа в план и смету</h3>
+        <div class="project__row"><b>Боль</b><p>Запрос размытый, объём и риски неясны, работа недооценивается.</p></div>
+        <div class="project__row"><b>Результат</b><p>Требования, вопросы, состав работ, трудозатраты, резерв и несколько вариантов сметы.</p></div>
+        <div class="project__check">✓ Меняете ставку или объём, срок и цена пересчитываются сами</div>
+      </article>
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 3</span><span class="level level--3">Уровень 3</span></div>
+        <h3>Сравнение предложений</h3>
+        <div class="project__row"><b>Боль</b><p>КП с разными ценами, сроками и скрытыми условиями в разных форматах файлов.</p></div>
+        <div class="project__row"><b>Результат</b><p>Единая модель: обязательные критерии, веса, сценарии и прозрачный рейтинг.</p></div>
+        <div class="project__check">✓ Можете объяснить руководителю, почему победил этот вариант</div>
+      </article>
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 4</span><span class="level level--4">Уровень 4</span></div>
+        <h3>Мультипроектный диспетчер</h3>
+        <div class="project__row"><b>Боль</b><p>Проекты и сроки разбросаны, перегрузка и реальная прибыльность не видны.</p></div>
+        <div class="project__row"><b>Результат</b><p>Проекты, задачи, загрузка, план-факт времени и оценка нового заказа.</p></div>
+        <div class="project__check">✓ На вопрос "возьмём ещё проект?" отвечают цифры</div>
+      </article>
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 5</span><span class="level level--5">Уровень 5</span></div>
+        <h3>Конвейер регулярного отчёта</h3>
+        <div class="project__row"><b>Боль</b><p>Каждый месяц вручную собираете файлы, правите форматы и удаляете дубли.</p></div>
+        <div class="project__row"><b>Результат</b><p>Power Query: загрузка из папки, очистка, объединение, контроль качества и сводный отчёт.</p></div>
+        <div class="project__check">✓ Новый файл в папке, кнопка "Обновить", готовый отчёт</div>
+      </article>
+      <article class="project rv">
+        <div class="project__top"><span class="project__n">Проект 6</span><span class="level level--5">Финал</span></div>
+        <h3>Анализатор обратной связи</h3>
+        <div class="project__row"><b>Боль</b><p>Сотни отзывов, анализ выборочный, приоритеты расставляются на глаз.</p></div>
+        <div class="project__row"><b>Результат</b><p>ИИ размечает текст по темам, Excel считает частоту и вес, вы проверяете качество.</p></div>
+        <div class="project__check">✓ Понятно, какую проблему чинить первой и почему</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head rv"><span class="eyebrow">Формат</span><h2>Как проходит обучение</h2></div>
+    <div class="how">
+      <div class="rv">
+        <div class="how__tile"><svg width="54" height="40" viewBox="0 0 54 40" fill="none"><rect x="1" y="1" width="52" height="30" rx="6" fill="#ffb459"/><circle cx="27" cy="16" r="8" fill="#262a40"/><path d="M25 12.5l5 3.5-5 3.5z" fill="#ffb459"/><rect x="1" y="36" width="52" height="3" rx="1.5" fill="#262a40" opacity=".25"/><rect x="1" y="36" width="22" height="3" rx="1.5" fill="#262a40"/></svg></div>
+        <p>Смотрите видеоуроки в удобном темпе<small>Короткие разборы: Excel на экране, преподаватель в кадре</small></p>
+      </div>
+      <div class="rv">
+        <div class="how__tile"><svg width="54" height="40" viewBox="0 0 54 40" fill="none"><rect x="1" y="1" width="24" height="38" rx="4" fill="#ffb459" stroke="#262a40" stroke-width="2"/><rect x="6" y="8" width="14" height="3" rx="1.5" fill="#262a40"/><rect x="6" y="15" width="14" height="3" rx="1.5" fill="#262a40"/><rect x="31" y="3" width="22" height="9" rx="3" fill="#fff" stroke="#262a40" stroke-width="2"/><rect x="31" y="16" width="22" height="9" rx="3" fill="#ffb459" stroke="#262a40" stroke-width="2"/><rect x="31" y="29" width="22" height="9" rx="3" fill="#fff" stroke="#262a40" stroke-width="2"/></svg></div>
+        <p>Выполняете практику на готовых датасетах<small>Тренажёры, тесты и проект в конце каждого модуля</small></p>
+      </div>
+      <div class="rv">
+        <div class="how__tile"><svg width="54" height="40" viewBox="0 0 54 40" fill="none"><rect x="1" y="1" width="34" height="18" rx="6" fill="#fff" stroke="#262a40" stroke-width="2"/><rect x="7" y="8" width="20" height="3" rx="1.5" fill="#262a40"/><rect x="19" y="20" width="34" height="18" rx="6" fill="#ffb459" stroke="#262a40" stroke-width="2"/><rect x="25" y="27" width="20" height="3" rx="1.5" fill="#262a40"/></svg></div>
+        <p>Переносите подход на свою задачу<small>С каждым модулем подсказок меньше, самостоятельности больше</small></p>
+      </div>
+      <div class="rv">
+        <div class="how__tile"><svg width="54" height="40" viewBox="0 0 54 40" fill="none"><rect x="1" y="1" width="52" height="38" rx="6" fill="#fff" stroke="#262a40" stroke-width="2"/><rect x="8" y="9" width="24" height="4" rx="2" fill="#262a40"/><rect x="8" y="17" width="16" height="3" rx="1.5" fill="#262a40" opacity=".4"/><circle cx="40" cy="25" r="8" fill="#ffb459" stroke="#262a40" stroke-width="2"/><path d="M40 21l1.3 2.6 2.8.4-2 2 .5 2.8-2.6-1.4-2.6 1.4.5-2.8-2-2 2.8-.4z" fill="#262a40"/></svg></div>
+        <p>Получаете сертификат об окончании<small>И 6 готовых систем, которые можно сразу внедрить в работу</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="band">
+  <div class="wrap">
+    <div class="rv">
+      <h2>Как выглядит урок</h2>
+      <p class="band__lead">Фрагмент модуля про Excel-минимум: реестр рабочих заявок, умная таблица и формула стоимости по ставке. Всё показано на реальном файле, который вы потом соберёте сами.</p>
+    </div>
+    <div class="video rv">
+      <video controls preload="none" playsinline poster="/assets/img/lesson-poster.jpg">
+        <source src="/assets/video/lesson-preview.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAM -->
+<section class="section" id="program">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Программа</span>
+      <h2>7 модулей от простой таблицы до гибридной системы</h2>
+      <p>Каждый модуль добавляет новый уровень поверх предыдущего. Сначала ИИ помогает выполнить работу, затем проектировать решение, а в финале вы сами распределяете задачи между ИИ, Excel и собой.</p>
+    </div>
+    <div class="program__stats rv">
+      <div class="stat"><b>7</b><span>модулей</span></div>
+      <div class="stat"><b>32</b><span>урока</span></div>
+      <div class="stat"><b>6</b><span>проектов</span></div>
+      <div class="stat"><b>4-5</b><span>часов в неделю</span></div>
+    </div>
+    <div class="acc" data-acc>
+      <div class="acc__item open rv">
+        <button class="acc__btn" aria-expanded="true"><span class="acc__num">1</span><span class="acc__title">Как устроена работа Excel + ИИ<small>База по Excel и первые таблицы, полученные с помощью нейросети</small></span><span class="acc__count">3 урока</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>База по Excel: таблицы, ссылки, фильтры и сортировка</li>
+          <li>Разделение обязанностей между Excel и ИИ</li>
+          <li>Создание таблицы с одного промпта</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">2</span><span class="acc__title">Собираем первую рабочую Excel-систему<small>Умные таблицы, защита от ошибок ввода, формулы вместе с ИИ</small></span><span class="acc__count">5 уроков</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Постановка задачи для ИИ: данные, правила, результат</li>
+          <li>Превращение диапазона данных в умную таблицу</li>
+          <li>Защита данных от ошибок ввода в Excel</li>
+          <li>Создание и проверка Excel-формул вместе с ИИ</li>
+          <li class="practice">Практика: финансовый навигатор</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">3</span><span class="acc__title">Извлекаем данные из текста и строим расчётную модель<small>Документы и скриншоты, очистка текста, модель на нескольких листах</small></span><span class="acc__count">4 урока</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Извлечение данных из документов и скриншотов с ИИ</li>
+          <li>Очистка и нормализация текста функциями Excel</li>
+          <li>Расчётная модель на нескольких листах с автопересчётом</li>
+          <li class="practice">Практика: из брифа в план и смету</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">4</span><span class="acc__title">Строим модель принятия решений в Excel<small>Данные из разных файлов, ВПР и ГПР, взвешенный рейтинг и сценарии</small></span><span class="acc__count">5 уроков</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Критерии выбора: обязательные условия и предпочтения</li>
+          <li>Приведение данных из разных файлов к одной структуре с ИИ</li>
+          <li>Использование ВПР и ГПР для связи данных между таблицами</li>
+          <li>Взвешенный рейтинг и сценарный анализ</li>
+          <li class="practice">Практика: сравнение предложений</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">5</span><span class="acc__title">Объединяем проекты, задачи и сроки в одну систему<small>Связанные таблицы, даты и статусы, план-факт в сводных таблицах</small></span><span class="acc__count">5 уроков</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Разделение одной большой таблицы на связанные</li>
+          <li>Справочники и ключи для связи таблиц</li>
+          <li>Работа с датами, сроками и статусами в Excel</li>
+          <li>План-факт и загрузка команды в сводных таблицах</li>
+          <li class="practice">Практика: мультипроектный диспетчер</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">6</span><span class="acc__title">Автоматизируем отчёты в Power Query<small>Загрузка, очистка и объединение файлов без программирования</small></span><span class="acc__count">5 уроков</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Поиск повторяющихся действий и проектирование автоматизации</li>
+          <li>Загрузка данных из .xlsx и .csv в Power Query</li>
+          <li>Очистка и типизация данных, разбор ошибок с ИИ</li>
+          <li>Объединение файлов и сборка сводного отчёта</li>
+          <li class="practice">Практика: регулярный отчёт по кнопке "Обновить"</li>
+        </ol></div>
+      </div>
+      <div class="acc__item rv">
+        <button class="acc__btn" aria-expanded="false"><span class="acc__num">7</span><span class="acc__title">Собираем гибридную систему: ИИ, Excel и человек<small>Классификация текста нейросетью и проверка качества разметки</small></span><span class="acc__count">5 уроков</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><ol>
+          <li>Распределение ролей между ИИ, Excel и человеком</li>
+          <li>Категории и правила классификации текста для ИИ</li>
+          <li>Превращение отзывов в структурированную таблицу с ИИ</li>
+          <li>Проверка качества разметки и доработка правил</li>
+          <li class="practice">Практика: анализатор обратной связи</li>
+        </ol></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section--soft">
+  <div class="wrap">
+    <div class="section__head rv"><span class="eyebrow">Инструменты</span><h2>Что вы освоите</h2></div>
+    <div class="skills">
+      <div class="card rv">
+        <h3>Работа с ИИ</h3>
+        <div class="chips">
+          <span class="chip">Постановка задачи: данные, правила, результат</span>
+          <span class="chip">Извлечение данных из файлов и скриншотов</span>
+          <span class="chip">Проектирование структуры таблицы</span>
+          <span class="chip">Создание и исправление формул</span>
+          <span class="chip">Классификация текста</span>
+          <span class="chip">Проверка ответов и поиск ошибок</span>
+          <span class="chip">Улучшение решения через диалог</span>
+        </div>
+      </div>
+      <div class="card rv">
+        <h3>Excel</h3>
+        <div class="chips">
+          <span class="chip">Умные таблицы</span>
+          <span class="chip">Проверка данных</span>
+          <span class="chip">Условное форматирование</span>
+          <span class="chip">Текстовые функции</span>
+          <span class="chip">СУММЕСЛИМН</span>
+          <span class="chip">ВПР и ГПР</span>
+          <span class="chip">Связи между листами</span>
+          <span class="chip">Работа с датами</span>
+          <span class="chip">Сводные таблицы</span>
+          <span class="chip">Power Query</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head rv"><span class="eyebrow">Перед стартом</span><h2>Что нужно, чтобы начать</h2></div>
+    <div class="req">
+      <div class="card rv">
+        <h3>Достаточно базы</h3>
+        <ul>
+          <li><svg class="check"><use href="#i-check"/></svg>Ориентироваться в листах и ячейках Excel</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Вводить и фильтровать данные, пользоваться простыми формулами вроде суммы</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Установленный Excel. Для Power Query лучше Excel 2016+ или Microsoft 365 под Windows</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Доступ к любой современной нейросети, которая умеет работать с файлами и изображениями: ChatGPT, Claude, GigaChat, DeepSeek и другие</li>
+        </ul>
+        <p class="req__note">На Mac часть возможностей Power Query ограничена, остальная программа проходится без проблем.</p>
+      </div>
+      <div class="card rv">
+        <h3>Не нужно заранее</h3>
+        <ul>
+          <li><span class="x">✕</span>Знать сложные формулы и сводные таблицы</li>
+          <li><span class="x">✕</span>Уметь работать в Power Query</li>
+          <li><span class="x">✕</span>Писать макросы, VBA или программировать</li>
+          <li><span class="x">✕</span>Проектировать архитектуру таблиц</li>
+          <li><span class="x">✕</span>Владеть продвинутым промпт-инжинирингом</li>
+        </ul>
+        <p class="req__note">Всему необходимому научитесь по ходу курса.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHOR -->
+<section class="section section--soft" id="author">
+  <div class="wrap author">
+    <div class="author__photo rv"><img src="/assets/img/filipp.jpg" alt="Филипп Акунья-Герреро, автор курса" loading="lazy" width="800" height="1000"></div>
+    <div class="rv">
+      <span class="eyebrow">Автор и ведущий курса</span>
+      <h2>Филипп Акунья-Герреро</h2>
+      <p class="author__role">Ведёт все уроки курса</p>
+      <!-- TODO: добавить регалии и опыт Филиппа -->
+      <div class="author__text">
+        <p>Филипп ведёт каждый урок сам: показывает решение на реальном Excel-файле, объясняет, что именно спросить у нейросети и как проверить её ответ, прежде чем он попадёт в расчёты.</p>
+        <p>В продвинутом тарифе можно задать вопросы лично ему и разобрать вашу рабочую задачу на консультации.</p>
+      </div>
+      <div class="quote"><b>Главный принцип курса.</b> ИИ избавляет от зубрёжки формул и помогает спроектировать решение. Правильность расчёта гарантирует Excel, а финальную проверку делаете вы.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section pricing" id="pricing">
+  <div class="wrap">
+    <div class="section__head rv">
+      <span class="eyebrow">Тарифы</span>
+      <h2>Выберите формат обучения</h2>
+      <p>Программа и проекты одинаковые. Отличие в том, нужна ли вам поддержка автора и сообщество.</p>
+    </div>
+    <div class="plans">
+      <div class="plan rv">
+        <h3>Базовый</h3>
+        <p class="plan__sub">Самостоятельное прохождение</p>
+        <div class="plan__price">2 900 <span>₽</span></div>
+        <div class="plan__per">единоразовый платёж</div>
+        <ul>
+          <li><svg class="check"><use href="#i-check"/></svg>7 модулей и 32 видеоурока</li>
+          <li><svg class="check"><use href="#i-check"/></svg>6 практических проектов</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Тренажёры и тесты на реальных датасетах</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Шаблоны готовых Excel-систем</li>
+          <li><svg class="check"><use href="#i-check"/></svg>Сертификат об окончании курса</li>
+        </ul>
+        <a class="btn btn--outline btn--block" href="#" data-plan="basic">Купить за 2 900 ₽</a>
+      </div>
+      <div class="plan plan--pro rv">
+        <span class="plan__badge">С поддержкой автора</span>
+        <h3>Продвинутый</h3>
+        <p class="plan__sub">Курс + консультации и чат</p>
+        <div class="plan__price">17 900 <span>₽</span></div>
+        <div class="plan__per">единоразовый платёж</div>
+        <ul>
+          <li><svg class="check"><use href="#i-check-y"/></svg>Всё из тарифа "Базовый"</li>
+          <li class="plus"><svg class="check"><use href="#i-check-y"/></svg>Консультации с автором курса</li>
+          <li class="plus"><svg class="check"><use href="#i-check-y"/></svg>Разбор вашей рабочей задачи и помощь с адаптацией системы под неё</li>
+          <li class="plus"><svg class="check"><use href="#i-check-y"/></svg>Закрытый чат курса с автором и участниками</li>
+        </ul>
+        <a class="btn btn--primary btn--block" href="#" data-plan="pro">Купить за 17 900 ₽</a>
+      </div>
+    </div>
+    <div class="pricing__foot rv">
+      <span>🔒 Безопасная оплата картой</span>
+      <span>🧾 Чек на почту после оплаты</span>
+      <span>🏢 Можно оплатить от юрлица по счёту</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section__head rv"><span class="eyebrow">FAQ</span><h2>Частые вопросы</h2></div>
+    <div class="acc faq" data-acc>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Я плохо знаю Excel. Мне подойдёт курс?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Да, если вы умеете открыть файл, ввести данные и посчитать сумму. Первый модуль выравнивает базу: ссылки, фильтры, сортировка и умные таблицы. Сложные формулы знать не нужно, их вы разберёте вместе с ИИ и научитесь проверять.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Какая нейросеть нужна? Обязательно платная?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Подойдёт любая современная модель, которая принимает файлы и картинки: ChatGPT, Claude, Gemini, GigaChat, DeepSeek и другие. Курс учит методике постановки задач и проверки ответов, поэтому не привязан к конкретному сервису. Для большинства уроков хватает бесплатных версий.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Можно проходить в Google Таблицах или на Mac?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Основная программа показана в Microsoft Excel. Большая часть приёмов работает и в Google Таблицах, и в Excel для Mac. Исключение - модуль по Power Query: на Mac часть его функций ограничена, поэтому для него рекомендуем Excel 2016+ или Microsoft 365 под Windows.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Сколько времени займёт обучение?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Программа рассчитана на 4-5 часов в неделю. Жёстких дедлайнов нет, можно идти быстрее или медленнее в своём темпе.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Чем отличаются тарифы?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Уроки, проекты и материалы одинаковые. В продвинутом тарифе добавляются консультации с автором курса и закрытый чат, где можно разобрать свою рабочую задачу и получить помощь с адаптацией системы под ваши данные.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Можно ли загружать в ИИ рабочие данные?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>В курсе мы работаем на учебных датасетах и отдельно разбираем, как обезличить свои данные перед отправкой в нейросеть. Многие задачи решаются без передачи данных вовсе: ИИ получает описание структуры таблицы и возвращает формулы и правила, а считает уже Excel на вашем компьютере.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Будет ли документ об окончании?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Да, после прохождения курса вы получаете сертификат. А главный результат - 6 рабочих систем на ваших данных, которые можно сразу применить в работе.</p></div></div>
+      <div class="acc__item rv"><button class="acc__btn" aria-expanded="false"><span class="acc__title">Что принципиально не входит в курс?</span><span class="acc__plus"></span></button>
+        <div class="acc__panel"><p>Полный курс по Excel и изучение всех функций, макросы и VBA, программирование, язык M в Power Query, профессиональное финансовое и юридическое моделирование. Мы также не обещаем полную автоматизацию любой задачи и не учим бездумно копировать ответы ИИ.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="section final">
+  <div class="wrap rv">
+    <h2>Перестаньте собирать один и тот же отчёт вручную</h2>
+    <p>Через несколько недель у вас будет 6 работающих Excel-систем и понятный способ превращать любую рабочую задачу в таблицу, которая считает сама.</p>
+    <div class="final__btns">
+      <a class="btn btn--primary" href="#pricing">Выбрать тариф</a>
+      <a class="btn btn--outline" href="#program">Посмотреть программу</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <a class="logo" href="#top"><span class="logo__mark">X4</span><span>excel<b>4</b>pro</span></a>
+    <div class="footer__links">
+      <a href="#program">Программа</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">Вопросы</a>
+      <!-- TODO: оферта, политика конфиденциальности, контакты -->
+    </div>
+    <div>© <span id="year">2026</span> excel4pro.ru</div>
+  </div>
+</footer>
+
+<div class="mcta" id="mcta">
+  <div class="mcta__price">от 2 900 ₽<small>Нейросети для работы с Excel</small></div>
+  <a class="btn btn--primary" href="#pricing">Записаться</a>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
